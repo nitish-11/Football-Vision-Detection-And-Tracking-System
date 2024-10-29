@@ -25,7 +25,7 @@ This project builds a real-time system to detect, track, and identify players, r
 
 **Team and Player Color Identification with K-means:**
 - Team Color Identification done by indentifying firstly all detected players colors by K-means
-  (Team1: White, Team2: Green)
+- (Team1: White, Team2: Green)
   <img src="images/k-means.png" alt="K-Means" width="600" />
 
 **Ball Possession:**
