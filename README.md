@@ -3,7 +3,7 @@
 ## Introduction
 This project builds a real-time system to detect, track, and identify players, referees, and the ball in football videos. It leverages custom training with **YOLOv5x** and uses **K-means clustering** for accurate player identification and team color assignment. The system seamlessly visualizes player movements, ball possession, and game dynamics.
 
-**[Check Out the Demonstration](https://youtu.be/U8vdIITPX2s?si=ZOdI3MsBSkIyBZzF)**
+- **[Check Out the Demonstration: Youtube Link](https://youtu.be/U8vdIITPX2s?si=ZOdI3MsBSkIyBZzF)**
 
 ## OUTPUT PICTURE
   <img src="images/final_output.png" alt="Output_picture" />
