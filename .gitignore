@@ -4,3 +4,9 @@
 *.ipynb_checkpoints
 models/
 runs/
+football_envr/
+input_videos/
+output_videos/
+stubs/*.pkl
+!stubs/track_stubs_1.pkl
+input_videos/*.mp4
