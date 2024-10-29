@@ -4,12 +4,6 @@
 This project builds a real-time system to detect, track, and identify players, referees, and the ball in football videos. It leverages custom training with **YOLOv5x** and uses **K-means clustering** for accurate player identification and team color assignment. The system seamlessly visualizes player movements, ball possession, and game dynamics.
 
 
-
-## OUTPUT PICTURE
-  <img src="images/final_output.png" alt="Output_picture" />
-
-
-
 ## Key Features
 - **YOLOv5x Detection:**	Applied transfer learning with YOLOv5x for real-time detection of players, referees, and football, utilizing a custom **Roboflow dataset** to achieve high-precision localization over 100 epochs at 640x640 resolution.
 - **Track ID Object:**	Developed an object tracking feature using **ByteTracker** to consistently identify players, referees, and the ball across frames, processing detection outputs and maintaining **track IDs** for accurate object localization.
@@ -18,7 +12,8 @@ This project builds a real-time system to detect, track, and identify players, r
 - **[Check Out the Demonstration](https://youtu.be/U8vdIITPX2s?si=ZOdI3MsBSkIyBZzF)**
 
 
-
+## OUTPUT PICTURE
+  <img src="images/final_output.png" alt="Output_picture" />
 
 
 
@@ -29,7 +24,8 @@ This project builds a real-time system to detect, track, and identify players, r
   <img src="images/track_id.png" alt="Track ID Assignment" width="600" />
 
 **Team and Player Color Identification with K-means:**
-- Team Color Identification done by indentifying firstly all detected players colors then (Green for Team1, White for Team2)
+- Team Color Identification done by indentifying firstly all detected players colors by K-means
+  (Team1: White, Team2: Green)
   <img src="images/k-means.png" alt="K-Means" width="600" />
 
 **Ball Possession:**
